@@ -1,0 +1,365 @@
+{
+  "title": "MoShell UserGuide Content",
+  "source": "UserGuide.md",
+  "chapters": [
+    {
+      "title": "0 Overview",
+      "slug": "overview",
+      "file": "00-overview.md",
+      "sections": []
+    },
+    {
+      "title": "1 Introduction",
+      "slug": "introduction",
+      "file": "01-introduction.md",
+      "sections": [
+        {
+          "level": 2,
+          "title": "1.1 Contact",
+          "anchor": "contact"
+        },
+        {
+          "level": 3,
+          "title": "TR for MoShell",
+          "anchor": "tr-for-moshell"
+        },
+        {
+          "level": 2,
+          "title": "1.2 MO concept",
+          "anchor": "mo-concept"
+        },
+        {
+          "level": 2,
+          "title": "1.3 O&M services and protocols",
+          "anchor": "o-and-m-services-and-protocols"
+        },
+        {
+          "level": 2,
+          "title": "1.4 MO Tree and MO Naming Conventions",
+          "anchor": "mo-tree-and-mo-naming-conventions"
+        },
+        {
+          "level": 2,
+          "title": "1.5 MOM - Managed Object Model",
+          "anchor": "mom-managed-object-model"
+        },
+        {
+          "level": 2,
+          "title": "1.6 Moshell Functionality",
+          "anchor": "moshell-functionality"
+        }
+      ]
+    },
+    {
+      "title": "2 Installation and user settings",
+      "slug": "installation-and-user-settings",
+      "file": "02-installation-and-user-settings.md",
+      "sections": [
+        {
+          "level": 2,
+          "title": "2.1 Installation for Unix (Solaris/Linux)",
+          "anchor": "installation-for-unix-solaris-linux"
+        },
+        {
+          "level": 2,
+          "title": "2.2 Installation for Windows (using Cygwin or WSL)",
+          "anchor": "installation-for-windows-using-cygwin-or-wsl"
+        },
+        {
+          "level": 2,
+          "title": "2.3 Starting an moshell session",
+          "anchor": "starting-an-moshell-session"
+        },
+        {
+          "level": 2,
+          "title": "2.4 User-specific settings",
+          "anchor": "user-specific-settings"
+        },
+        {
+          "level": 2,
+          "title": "2.5 Ports used by moshell",
+          "anchor": "ports-used-by-moshell"
+        },
+        {
+          "level": 2,
+          "title": "2.6 LDAP roles",
+          "anchor": "ldap-roles"
+        },
+        {
+          "level": 3,
+          "title": "MSRBS",
+          "anchor": "msrbs"
+        },
+        {
+          "level": 3,
+          "title": "Cloud RAN",
+          "anchor": "cloud-ran"
+        },
+        {
+          "level": 2,
+          "title": "2.7 O&M Security",
+          "anchor": "o-and-m-security"
+        }
+      ]
+    },
+    {
+      "title": "3 Command syntax, including Regular Expressions",
+      "slug": "command-syntax-including-regular-expressions",
+      "file": "03-command-syntax-including-regular-expressions.md",
+      "sections": [
+        {
+          "level": 2,
+          "title": "3.1 How MOs are Identified",
+          "anchor": "how-mos-are-identified"
+        },
+        {
+          "level": 2,
+          "title": "3.2 How to address the MOs in MO-related commands",
+          "anchor": "how-to-address-the-mos-in-mo-related-commands"
+        },
+        {
+          "level": 2,
+          "title": "3.3 Regular Expressions",
+          "anchor": "regular-expressions"
+        },
+        {
+          "level": 2,
+          "title": "3.4 How to specify attribute values in set/cr/acc commands",
+          "anchor": "how-to-specify-attribute-values-in-set-cr-acc-commands"
+        },
+        {
+          "level": 2,
+          "title": "3.5 Moshell command line",
+          "anchor": "moshell-command-line"
+        },
+        {
+          "level": 2,
+          "title": "3.6 Piping",
+          "anchor": "piping"
+        }
+      ]
+    },
+    {
+      "title": "4 Command descriptions",
+      "slug": "command-descriptions",
+      "file": "04-command-descriptions.md",
+      "sections": [
+        {
+          "level": 2,
+          "title": "4.1 Basic MO commands",
+          "anchor": "basic-mo-commands"
+        },
+        {
+          "level": 2,
+          "title": "4.2 Other MO commands",
+          "anchor": "other-mo-commands"
+        },
+        {
+          "level": 3,
+          "title": "std on MGW",
+          "anchor": "std-on-mgw"
+        },
+        {
+          "level": 3,
+          "title": "std on RNC",
+          "anchor": "std-on-rnc"
+        },
+        {
+          "level": 3,
+          "title": "Printout format CPP",
+          "anchor": "printout-format-cpp"
+        },
+        {
+          "level": 3,
+          "title": "Printout format MSRBS",
+          "anchor": "printout-format-msrbs"
+        },
+        {
+          "level": 3,
+          "title": "Printout format",
+          "anchor": "printout-format"
+        },
+        {
+          "level": 3,
+          "title": "TraceProfiles",
+          "anchor": "traceprofiles"
+        },
+        {
+          "level": 2,
+          "title": "4.3 Other commands",
+          "anchor": "other-commands"
+        },
+        {
+          "level": 3,
+          "title": "Switches",
+          "anchor": "switches"
+        },
+        {
+          "level": 2,
+          "title": "4.4 PM commands",
+          "anchor": "pm-commands"
+        },
+        {
+          "level": 3,
+          "title": "Switches",
+          "anchor": "switches-2"
+        },
+        {
+          "level": 3,
+          "title": "Threshold file",
+          "anchor": "threshold-file"
+        },
+        {
+          "level": 3,
+          "title": "Generate PNG files",
+          "anchor": "generate-png-files"
+        },
+        {
+          "level": 3,
+          "title": "IubCellModule file",
+          "anchor": "iubcellmodule-file"
+        }
+      ]
+    },
+    {
+      "title": "5 Lazy",
+      "slug": "lazy",
+      "file": "05-lazy.md",
+      "sections": [
+        {
+          "level": 2,
+          "title": "5.1 Software Upgrade CPP",
+          "anchor": "software-upgrade-cpp"
+        },
+        {
+          "level": 2,
+          "title": "5.2 Software Upgrade ECIM/COM",
+          "anchor": "software-upgrade-ecim-com"
+        },
+        {
+          "level": 2,
+          "title": "5.3 RNC Iub operations",
+          "anchor": "rnc-iub-operations"
+        },
+        {
+          "level": 2,
+          "title": "5.4 Common RNC Iub Integration Problems",
+          "anchor": "common-rnc-iub-integration-problems"
+        },
+        {
+          "level": 2,
+          "title": "5.5 Common RNC Iu/Iur Integration Problems",
+          "anchor": "common-rnc-iu-iur-integration-problems"
+        }
+      ]
+    },
+    {
+      "title": "6 Scripting",
+      "slug": "scripting",
+      "file": "06-scripting.md",
+      "sections": [
+        {
+          "level": 2,
+          "title": "6.1 Preset Variables",
+          "anchor": "preset-variables"
+        },
+        {
+          "level": 2,
+          "title": "6.2 Variable assignment",
+          "anchor": "variable-assignment"
+        },
+        {
+          "level": 2,
+          "title": "6.3 Hashtables (arrays)",
+          "anchor": "hashtables-arrays"
+        },
+        {
+          "level": 2,
+          "title": "6.4 If/Else constructs",
+          "anchor": "if-else-constructs"
+        },
+        {
+          "level": 2,
+          "title": "6.5 For constructs",
+          "anchor": "for-constructs"
+        },
+        {
+          "level": 2,
+          "title": "6.6 User-defined functions",
+          "anchor": "user-defined-functions"
+        },
+        {
+          "level": 2,
+          "title": "6.7 Nesting for and if statements",
+          "anchor": "nesting-for-and-if-statements"
+        },
+        {
+          "level": 2,
+          "title": "6.8 Example scripts",
+          "anchor": "example-scripts"
+        }
+      ]
+    },
+    {
+      "title": "7 Utilities",
+      "slug": "utilities",
+      "file": "07-utilities.md",
+      "sections": []
+    },
+    {
+      "title": "8 Server Maintenance",
+      "slug": "server-maintenance",
+      "file": "08-server-maintenance.md",
+      "sections": [
+        {
+          "level": 2,
+          "title": "8.1 Hanging Processes",
+          "anchor": "hanging-processes"
+        },
+        {
+          "level": 2,
+          "title": "8.3 Run out of memory",
+          "anchor": "run-out-of-memory"
+        }
+      ]
+    },
+    {
+      "title": "9 Modes of operation",
+      "slug": "modes-of-operation",
+      "file": "09-modes-of-operation.md",
+      "sections": [
+        {
+          "level": 2,
+          "title": "9.1 Offline Mode",
+          "anchor": "offline-mode"
+        },
+        {
+          "level": 2,
+          "title": "9.2 SQL Mode for CPP Nodes",
+          "anchor": "sql-mode-for-cpp-nodes"
+        },
+        {
+          "level": 2,
+          "title": "9.3 Multi Mode for CPP Nodes",
+          "anchor": "multi-mode-for-cpp-nodes"
+        },
+        {
+          "level": 2,
+          "title": "9.4 Yang Mode for Cloud-RAN",
+          "anchor": "yang-mode-for-cloud-ran"
+        },
+        {
+          "level": 2,
+          "title": "9.5 Router6000",
+          "anchor": "router6000"
+        }
+      ]
+    },
+    {
+      "title": "10 Revision History",
+      "slug": "revision-history",
+      "file": "10-revision-history.md",
+      "sections": []
+    }
+  ]
+}

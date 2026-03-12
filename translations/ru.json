@@ -1,0 +1,58 @@
+{
+  "ui": {
+    "site_title": "MoShell GUIDE RU",
+    "site_description": "GUIDE-сайт, собранный из нормализованного UserGuide.",
+    "brand_title": "MoShell RU",
+    "brand_description": "Русская версия UserGuide в формате сайта.",
+    "search_label": "Поиск",
+    "search_placeholder": "Раздел, команда, термин",
+    "hero_eyebrow": "Документация",
+    "hero_loading": "Загрузка...",
+    "hero_card_title": "Что внутри",
+    "hero_card_description": "Главы, подглавы, таблицы и ключевые команды из исходного руководства.",
+    "toc_title": "На странице",
+    "nav_title": "Разделы",
+    "nav_caption": "Нормализованный корпус UserGuide",
+    "empty_search": "Ничего не найдено",
+    "empty_search_hint": "Попробуй другой термин или команду.",
+    "prev_page": "Предыдущая глава",
+    "next_page": "Следующая глава",
+    "page_meta": "Глава",
+    "section_meta": "Подразделов"
+  },
+  "chapters": {
+    "overview": {
+      "title": "Обзор"
+    },
+    "introduction": {
+      "title": "Введение"
+    },
+    "installation-and-user-settings": {
+      "title": "Установка и настройки"
+    },
+    "command-syntax-including-regular-expressions": {
+      "title": "Синтаксис команд и регулярные выражения"
+    },
+    "command-descriptions": {
+      "title": "Описание команд"
+    },
+    "lazy": {
+      "title": "Lazy"
+    },
+    "scripting": {
+      "title": "Скриптинг"
+    },
+    "utilities": {
+      "title": "Утилиты"
+    },
+    "server-maintenance": {
+      "title": "Обслуживание сервера"
+    },
+    "modes-of-operation": {
+      "title": "Режимы работы"
+    },
+    "revision-history": {
+      "title": "История изменений"
+    }
+  }
+}

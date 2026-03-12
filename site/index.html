@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoShell GUIDE RU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="eyebrow">GUIDE</span>
+          <h1 id="brand-title">MoShell RU</h1>
+          <p id="brand-description">Русская версия UserGuide в формате сайта.</p>
+        </div>
+        <div class="sidebar-meta">
+          <strong id="nav-title">Разделы</strong>
+          <span id="nav-caption">Нормализованный корпус UserGuide</span>
+        </div>
+        <label class="search">
+          <span id="search-label">Поиск</span>
+          <input id="search" type="search" placeholder="Раздел, команда, термин" />
+        </label>
+        <nav id="page-nav" class="page-nav"></nav>
+      </aside>
+
+      <main class="content">
+        <header class="hero">
+          <div>
+            <span id="hero-eyebrow" class="eyebrow">Документация</span>
+            <h2 id="page-title">Загрузка...</h2>
+            <p id="page-subtitle"></p>
+            <div class="page-stats">
+              <span id="page-meta-label">Глава</span>
+              <strong id="page-number">-</strong>
+              <span id="section-meta-label">Подразделов</span>
+              <strong id="section-count">-</strong>
+            </div>
+          </div>
+          <div class="hero-card">
+            <strong id="hero-card-title">Что внутри</strong>
+            <p id="hero-card-description">Главы, подглавы, таблицы и ключевые команды из исходного руководства.</p>
+          </div>
+        </header>
+
+        <div class="layout">
+          <article id="article" class="article"></article>
+          <aside class="toc">
+            <h3 id="toc-title">На странице</h3>
+            <nav id="section-nav"></nav>
+          </aside>
+        </div>
+
+        <footer class="pager" id="pager"></footer>
+      </main>
+    </div>
+
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>
